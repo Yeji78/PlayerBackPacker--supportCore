@@ -1,0 +1,45 @@
+Items:
+  #普通背包
+  General:
+    name: "普通背包"
+    type: STONE
+    lore:
+      - "普通背包"
+    Gui:
+      title: "普通背包"
+      size: 13
+  #中级
+  Rare:
+    name: "中级背包"
+    type: STONE
+    lore:
+      - "中级背包"
+    Gui:
+      title: "中级背包"
+      size: 27
+  #高级
+  Legend:
+    name: "高级背包"
+    type: STONE
+    lore:
+      - "高级背包"
+    Gui:
+      title: "高级背包"
+      size: 53
+
+Limit:
+  name: "占位物品"
+  type: STAINED_GLASS_PANE
+  data: 0
+  lore:
+    - "占位物品"
+
+#DragonCore或者GermEngine
+Compatible:
+  type: "DragonCore"
+  #槽位名称
+  value: "项链槽位"
+
+msg:
+  禁止套娃: "你不可以将这个背包放入"
+  没有背包: "你没有装备背包"
